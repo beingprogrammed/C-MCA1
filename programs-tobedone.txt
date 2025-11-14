@@ -1,0 +1,191 @@
+1.
+WAP to find the length & breadth of a rectangle.
+
+2.
+WAP to swap two variables with and without using third variable.
+
+3.
+WAP to find the reverse of a 4 digit number.
+
+4.
+WAP to find the sum of the digits of a 4 digit number.
+
+5.
+If a five-digit number is input through the keyboard, write a program to print a new number by adding one to each of its digits.
+For example, if the number that is input is 12391 then the output should be displayed as 23402.
+
+6.
+WAP to find whether the year is leap or not (Do this with conditional operators).
+
+7.
+WAP to find the reverse of a 4 digit number and compare it to the original number.
+
+8.
+If the ages of A, B and C are input through the keyboard, write a program to determine the youngest of the three.
+
+9.
+Write a program that prints the numbers from 1 to 100.
+But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”.
+For numbers which are multiples of both three and five print “FizzBuzz”.
+
+10.
+WAP to find whether the entered number is Armstrong or not.
+
+11.
+WAP to find whether the entered number is prime or not.
+
+12.
+WAP to find the factorial value of any number.
+
+13.
+Two numbers are entered through the keyboard.
+WAP to find the value of one number raised to the power of another.
+
+14.
+WAP to print all the ASCII values and their equivalent characters using a while loop.
+The ASCII values vary from 0 to 255.
+
+15.
+WAP to print all the Armstrong numbers between 1 and 500.
+
+16.
+WAP to enter numbers till the user wants.
+At the end, it should display the count of positive, negative, and zeros entered.
+
+17.
+WAP to find the range of a set of numbers.
+Range is the difference between the smallest and the biggest number in the list.
+
+18.
+WAP to print all the prime numbers from 1 to 300.
+
+19.
+WAP to fill the entire screen with a smiling face.
+(The smiling face has an ASCII value 1.)
+
+20.
+WAP to generate all combinations of 1, 2 and 3.
+
+21.
+WAP to print the multiplication table of the number entered by the user.
+
+22.
+Pyramid programs with stars, numbers and alphabets.
+
+23.
+Swap the value of two variables using call by value & by reference.
+
+24.
+Factorial, Prime Number, Armstrong number, Fibonacci (first 25 numbers),
+Sum of digits, Reverse a number, Binary equivalent of a number,
+Sum of first 25 natural numbers, Prime factors using recursive and non-recursive functions.
+
+25.
+WAP to find the maximum number in an array.
+
+26.
+WAP that interchanges the odd and even elements of an array.
+
+27.
+WAP to find out in a[25] how many are positive, how many are negative, how many are even and how many odd.
+
+28.
+WAP to find if the number to be searched is present in the array and if yes, then display the number of times it appears.
+
+29.
+WAP to accept only the unique elements in an array.
+
+30.
+WAP to move the -ve elements on one side and +ve on the other side without using a third array, and order should be same.
+
+31.
+WAP using pointers to find the smallest number in an array of 25 integers.
+
+32.
+Implement the Selection Sort, Bubble Sort and Insertion Sort.
+
+33.
+Linear Search and Binary Search.
+
+34.
+WAP to pick up the largest number from any 5x5 matrix.
+
+35.
+WAP to obtain transpose of a 4x4 matrix.
+The transpose of a matrix is obtained by exchanging the elements of each row with the elements of the corresponding column.
+
+36.
+WAP to add two 6x6 matrices.
+
+37.
+WAP to multiply any two 3x3 matrices.
+
+38.
+Write your own substring function in C.
+
+39.
+WAP to reverse a string.
+
+40.
+WAP to check whether the entered string is palindrome or not.
+
+41.
+WAP to sort a set of names stored in an array in alphabetical order.
+
+42.
+WAP to delete all vowels from a sentence.
+Assume that the sentence is not more than 80 chars long.
+
+43.
+WAP that will read a line and delete from it all the occurrences of the word 'the'.
+
+44.
+WAP that will read a line and replace all spaces with "0x20".
+
+45.
+WAP that takes a set of names of individuals and abbreviates the first, middle, and other names except the last name by their first letter.
+
+46.
+WAP which reverses every word in the string.
+
+47.
+WAP to sort all the elements of a 4x4 matrix.
+
+48.
+WAP to count the number of times every character occurs in the string.
+
+49.
+WAP that converts all lowercase characters in a given string to their equivalent uppercase characters.
+
+50.
+WAP that replaces two or more consecutive blanks in a string by a single blank.
+
+51.
+Write a program that uses an array of pointers to strings str[ ].
+Receive two strings str1 and str2 and check if str1 is embedded in any of the strings in str[ ].
+If str1 is found, then replace it with str2.
+char *str[ ] = {
+    "We will teach you how to...",
+    "Move a mountain",
+    "Level a building",
+    "Erase the past",
+    "Make a million",
+    "...all through C!"
+};
+
+For example, if str1 contains "mountain" and str2 contains "car",
+then the second string in str should get changed to "Move a car".
+
+52.
+Write a program to reverse the strings stored in the following array of pointers to strings:
+char *s[ ] = {
+    "To err is human...",
+    "But to really mess things up...",
+    "One needs to know C!!"
+};
+
+
+53.
+Write a program to count the number of occurrences of any two vowels in succession in a line of text.
+For example, in the sentence
+“Pleases read this application and give me gratuity” such occurrences are ea, ea, ui.
