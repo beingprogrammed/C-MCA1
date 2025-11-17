@@ -15,7 +15,7 @@ int main() {
     int n = sizeof(str) / sizeof(str[0]);
 
     char str1[30], str2[30];
-    char temp[500];
+    char temp[50];
 
     printf("Enter first string: ");
     scanf("%s", str1);
@@ -35,7 +35,7 @@ int main() {
             // Check if str1 matches at position j
             if (strncmp(&temp[j], str1, len1) == 0) {
 
-                char after[500];
+                char after[50];
                 strcpy(after, temp + j + len1);  // part after match
 
                 temp[j] = '\0';                  // cut string at match
