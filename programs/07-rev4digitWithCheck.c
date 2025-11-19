@@ -2,7 +2,7 @@
 
 int main(){
     int n;
-    int rev = 0, temp, digit, i = 1;
+    int rev = 0, temp;
 
    
     while (1)
