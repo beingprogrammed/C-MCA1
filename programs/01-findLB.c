@@ -15,15 +15,14 @@ int main(){
 
     if(temp<0){
         printf("No such rectangle can exist.\n");
-    }
-
-    
+    } else{
     float diff = sqrt(temp);
     l = (p/4)+diff;
     b = (p/4)-diff;
 
     printf("\nLength of rectangle : %f units.", l);
     printf("\nBreadth of rectanble : %f units.", b);
+    }
 
     return 0;
 }
