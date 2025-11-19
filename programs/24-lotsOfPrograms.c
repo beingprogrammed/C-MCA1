@@ -1,3 +1,8 @@
+//bahut baddaa program hai bhyi, kai saare chhote programs ka sangrah hai ye, isko ho ske to file se skip krna
+
+
+
+
 #include <stdio.h>
 #include <math.h>
 
