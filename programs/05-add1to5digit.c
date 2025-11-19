@@ -28,6 +28,6 @@ int main(){
     }
     
 
-    printf("New number : %05d %d", newN, 6%10);
+    printf("New number : %05d", newN);
 
 }
