@@ -7,12 +7,10 @@ int main() {
     //we need a terminal that uses CP437 encoding (like old DOS terminals) to see the smiling face character.
 
     //maybe will work on windows cmd or powershell
-    int i, j;
-    for (i = 0; i < 25; i++) { // Assuming 25 rows
-        for (j = 0; j < 80; j++) { // Assuming 80 columns
+    int i;
+    for (i = 0; i < 100000; i++) { // Assuming 25 rows
             printf("%c", 1); // Print smiling face character
         }
         printf("\n"); // New line after each row
-    }
     return 0;
 }
