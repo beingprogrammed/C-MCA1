@@ -4,9 +4,9 @@ int main(){
     int b, e;
     unsigned long long result = 1;
 
-    printf("Enter b number: ");
+    printf("Enter base number: ");
     scanf("%d", &b);
-    printf("Enter e number: ");
+    printf("Enter exponent number: ");
     scanf("%d", &e);
 
     for(int i = 1; i <= e; i++)
