@@ -18,11 +18,11 @@ int main(){
 
     while (temp !=0)
     {
-        int digit;;
+        int digit;
         digit = i*(((temp%10)+1)%10); //add 1 to digit, last %10 make digit 10 if it becomes 10. i places it to its own digits place
 
         newN += digit;
-        i*=10;
+        i*=10; //ye reverse nhi hai, sidha hi hai, but nth place me 1 add ho rha hai, that means, hame har step me agle place pe jana hai, isi liye i ko 10 se multiply kar rahe hai, jo hmaare place to signlify karega
         temp/=10;
 
     }
