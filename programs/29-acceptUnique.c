@@ -1,13 +1,12 @@
 #include <stdio.h>
 
 int main() {
-    int arr[100];
     int n, num, isDuplicate;
     int count = 0;
 
     printf("Enter how many unique numbers you want to store: ");
     scanf("%d", &n);
-
+    int arr[n];
     printf("Enter numbers (duplicates will be ignored):\n");
 
     while (count < n) {
