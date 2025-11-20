@@ -28,6 +28,7 @@ int main() {
     }
     printf("Number of positive integers: %d\n", positiveCount);
     printf("Number of negative integers: %d\n", negativeCount);
+    printf("Number of zeros: %d\n", zeroCount);
     printf("Number of even integers: %d\n", evenCount);
     printf("Number of odd integers: %d\n", oddCount);
     return 0;
