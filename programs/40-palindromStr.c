@@ -12,11 +12,15 @@ int main() {
     // find length
     len = strlen(str);
 
+
     // remove newline if present
     if (str[len - 1] == '\n') {
         str[len - 1] = '\0';
         len--;
     }
+    printf("Reverse: ");
+    for (int k = len - 1; k >= 0; k--) printf("%c", str[k]);
+    printf("\n");
 
     j = len - 1;
 
