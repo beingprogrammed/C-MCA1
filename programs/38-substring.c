@@ -12,10 +12,10 @@ void substring(char src[], char dest[], int start, int len) {
 }
 
 int main() {
-    char str[100] = "HELLOWORLD";
+    char str[100] = "This is an example string.";
     char sub[100];
 
-    substring(str, sub, 2, 5);   // take 5 chars starting from index 2
+    substring(str, sub, 2, 15);   // take 5 chars starting from index 2
 
     printf("substring = %s\n", sub);
 
