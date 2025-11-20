@@ -2,34 +2,26 @@
 #include <string.h>
 
 int main() {
-    int n;
-    printf("Enter number of names: ");
-    scanf("%d", &n);
+    int n = 15;
 
-    char names[n][50]; // array of strings
+    char names[15][50] = {
+        "Ghanshyam", "Naveen", "Amit Sharma", "Riya Verma", "Suresh",
+        "Meera", "Arjun Singh", "Lakshmi Iyer", "Vikram", "Pooja Patel",
+        "Rohan", "Anjali Mehta", "Karan", "Deepak Kumar", "Sneha"
+    };
 
-    printf("Enter the names:\n");
-    for (int i = 0; i < n; i++) {
-        scanf("%s", names[i]);
-    }
-
-    // Sorting using simple bubble sort logic
-    for (int i = 0; i < n - 1; i++) {
-        for (int j = i + 1; j < n; j++) {
+    for (int i = 0; i < n - 1; i++)
+        for (int j = i + 1; j < n; j++)
             if (strcmp(names[i], names[j]) > 0) {
-                // swap the two strings
                 char temp[50];
                 strcpy(temp, names[i]);
                 strcpy(names[i], names[j]);
                 strcpy(names[j], temp);
             }
-        }
-    }
 
     printf("\nSorted names:\n");
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++)
         printf("%s\n", names[i]);
-    }
 
     return 0;
 }
