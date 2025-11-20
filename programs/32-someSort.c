@@ -48,18 +48,13 @@ void printArray(int a[], int n) {           // print array
 
 int main() {
     int n;
+    
+    // Preinitialized array
+    int arr1[] = {64, 25, 12, 22, 11, 90, 5, 3, 45};
+    int arr2[] = {64, 25, 12, 22, 11, 90, 5, 3, 45};
+    int arr3[] = {64, 25, 12, 22, 11, 90, 5, 3, 45};
+    n = sizeof(arr1) / sizeof(arr1[0]);
 
-    printf("enter number of elements: ");   // input size
-    scanf("%d", &n);
-
-    int arr1[n], arr2[n], arr3[n];          // arrays for each sort
-
-    printf("enter %d elements:\n", n);      // input elements
-    for (int i = 0; i < n; i++) {
-        scanf("%d", &arr1[i]);
-        arr2[i] = arr1[i];
-        arr3[i] = arr1[i];
-    }
 
     selectionSort(arr1, n);                 // do selection sort
     bubbleSort(arr2, n);                    // do bubble sort
