@@ -9,20 +9,26 @@ int main() {
     };
     
     int n = sizeof(s) / sizeof(s[0]);  // number of strings
-    char temp[200];  // buffer to store reversed string
+    char temp[10][200];  // buffer to store reversed string
 
     for (int i = 0; i < n; i++) {
         int len = strlen(s[i]);
 
         // Reverse the string into temp
         for (int j = 0; j < len; j++) {
-            temp[j] = s[i][len - j - 1];
+            temp[i][j] = s[i][len - j - 1];
         }
-        temp[len] = '\0';  // null-terminate the string
+        temp[i][len] = '\0';  // null-terminate the string
 
-        printf("Original: %s\n", s[i]);
-        printf("Reversed: %s\n\n", temp);
+        s[i] = temp[i];  // point s[i] to reversed string
     }
+
+    printf("Reversed strings:\n");
+    for (int i = 0; i < n; i++)
+    {
+        printf("%s\n", s[i]);
+    }
+    
 
     return 0;
 }
