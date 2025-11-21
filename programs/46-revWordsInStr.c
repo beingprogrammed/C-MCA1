@@ -26,7 +26,6 @@ int main(){
         if (str[i]==' ' || str[i]=='\0')
         {
             wordEnd = i - 1;
-            printf("%d %d\n", wordStart, wordEnd);
             // reverse the word from wordstart to wordEnd
             reverseWord(str, wordStart, wordEnd);
             wordStart = i + 1; // update wordstart for next word
