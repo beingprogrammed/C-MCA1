@@ -1,4 +1,4 @@
-# Welcome, Ladies and Gentlemen 👋
+# Bonjour, Ladies and Gentlemen 👋
 
 Nothing too fancy here—just a bunch of programs my professor **brilliantly thought we needed** for practical files.  
 Feel free to marvel at my coding skills (or lack thereof). 😅
