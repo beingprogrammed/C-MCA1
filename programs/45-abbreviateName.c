@@ -6,7 +6,7 @@ void abbreviateName(char str[], char abbrev[])
     int i = 0, j = 0, lastWordStart = 0;
     // remove trailing spaces
     int len = strlen(str);
-    while (len > 0 && str[len - 1] == ' ')
+    while (len > 0 && str[len - 1] == ' ') // len - 1 for getting the index
         str[--len] = '\0';
 
     // find where the last word begins
@@ -65,7 +65,7 @@ int main()
     for (int i = 0; i < n; i++)
     {
         printf("Original Name %d: %s\n", i + 1, names[i]);
-        printf("Abbreviated Name %d: %s\n", i + 1, abbrev[i]);
+        printf("Abbreviated Name %d: %s\n\n", i + 1, abbrev[i]);
     }
 
     return 0;
