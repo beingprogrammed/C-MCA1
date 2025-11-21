@@ -21,7 +21,8 @@ int main() {
             if (str[i] == ' ') i++;  // skip space after it
         }
         else {
-            newstr[j++] = str[i++];
+            newstr[j] = str[i];
+            j++; i++;
         }
     }
 
