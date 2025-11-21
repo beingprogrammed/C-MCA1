@@ -29,7 +29,7 @@ int main(){
     }
     result[j] = '\0'; // Null-terminate the result string
 
-    printf("String after replacing multiple blanks with a single blank:\n");
+    printf("String after replacing blanks:\n");
     printf("%s", result);
     return 0;
     
