@@ -84,17 +84,17 @@ int main() {
     char tempArr[10][200];   // 10 strings, each up to 200 chars
 
     printf("Enter first string: ");
-    scanf("%s", str1);
+    scanf("%[^\n]", str1); getchar(); // consume newline
 
     printf("Enter second string: ");
-    scanf("%s", str2);
+    scanf("%[^\n]", str2); getchar(); // consume newline
 
     for (int i = 0; i < n; i++) {
 
         char newStr[200] = "";     // build updated string here
         char *p = str[i];          // pointer to original string
 
-        while (*p) {
+        while (*p != '\0') {
             
             // If match found at p
             if (strncmp(p, str1, strlen(str1)) == 0) {
@@ -119,7 +119,7 @@ int main() {
 
     printf("\nModified strings:\n");
     for (int i = 0; i < n; i++) {
-        printf("%s\n", tempArr[i]);
+        printf("%s\n", str[i]);
     }
 
     return 0;
